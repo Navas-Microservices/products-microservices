@@ -15,7 +15,6 @@ async function bootstrap() {
       },
     },
   );
-  console.log(12345);
 
   app.useGlobalPipes(
     new ValidationPipe({
